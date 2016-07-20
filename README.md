@@ -12,3 +12,12 @@ this is first publish
 
 study Alexa 
 	地址:https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit
+
+
+
+
+command
+
+PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"
+
+export PATH
