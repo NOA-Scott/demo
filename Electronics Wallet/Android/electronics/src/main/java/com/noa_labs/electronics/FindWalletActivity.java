@@ -67,14 +67,16 @@ public class FindWalletActivity extends BaseActivity implements
     public void onMapReady(GoogleMap googleMap) {
         Log.e(TAG, "onMapReady     ");
         mMap = googleMap;
+
         mMap.setOnMyLocationButtonClickListener(this);
+
         enableMyLocation();
 
 
         mBrisbane = mMap.addMarker(new MarkerOptions()
                 .position(BRISBANE)
-                .title("Brisbane")
-                .snippet("Population: 2,074,200")
+                .title("My Wallet")
+                .snippet("click look my wallet detailed information")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.wallet))
                 //.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
                 .infoWindowAnchor(0.5f, 0.5f)

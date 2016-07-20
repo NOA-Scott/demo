@@ -27,5 +27,7 @@
         class="com.google.android.gms.maps.SupportMapFragment"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
+        map:cameraTargetLat="22.52825400732604"
+        map:cameraTargetLng="114.11224302734378"
         android:layout_height="match_parent" />
 </LinearLayout>
