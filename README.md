@@ -9,4 +9,4 @@ this is first publish
 
 
 study Alexa 
-	地址:https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit
+	\n地址:https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit
