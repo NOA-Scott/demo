@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="n0B-Sa-c5O">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="dUR-0i-J4d">
+            <objects>
+                <viewController title="HOME" id="n0B-Sa-c5O" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bOB-Ay-dby"/>
+                        <viewControllerLayoutGuide type="bottom" id="qKU-Cx-Sj2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aSB-yP-fkN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="6lw-7p-Iap">
+                                <rect key="frame" x="51" y="81" width="236" height="230"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lhh-G7-iea">
+                                        <rect key="frame" x="0.0" y="0.0" width="236" height="47"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="LogoWallet@1x" translatesAutoresizingMaskIntoConstraints="NO" id="U8R-Ti-SOE">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBo-YB-hFu">
+                                                <rect key="frame" x="79" y="3" width="157" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Find My Wallet"/>
+                                                <connections>
+                                                    <segue destination="9sM-U4-euX" kind="push" id="Kel-H8-AtO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="anA-oZ-la5">
+                                        <rect key="frame" x="0.0" y="61" width="230" height="47"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="LogoWallet@1x" translatesAutoresizingMaskIntoConstraints="NO" id="5Gl-eA-YVj">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peG-hA-sgW">
+                                                <rect key="frame" x="79" y="3" width="151" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Battery Status"/>
+                                                <connections>
+                                                    <segue destination="HN3-vT-RVe" kind="push" id="xLk-dJ-rCb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalCentering" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wPo-SP-PxK">
+                                        <rect key="frame" x="0.0" y="122" width="198" height="47"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="LogoWallet@1x" translatesAutoresizingMaskIntoConstraints="NO" id="WE5-CT-4Mh">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRi-I0-9Tb">
+                                                <rect key="frame" x="79" y="3" width="119" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Unlock PIN"/>
+                                                <connections>
+                                                    <segue destination="CV2-CO-Fjr" kind="push" id="KPJ-JV-jTC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X50-Xy-bOA">
+                                        <rect key="frame" x="0.0" y="183" width="167" height="47"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" image="LogoWallet@1x" translatesAutoresizingMaskIntoConstraints="NO" id="kja-E3-4co">
+                                                <rect key="frame" x="0.0" y="0.0" width="59" height="47"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq7-Sd-cAY">
+                                                <rect key="frame" x="79" y="0.0" width="88" height="47"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Settings"/>
+                                                <connections>
+                                                    <segue destination="e5d-4K-b05" kind="push" id="sNO-J5-gmu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="raW-lY-hVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496" y="405"/>
+        </scene>
+        <!--FindWallet-->
+        <scene sceneID="xmb-p6-A66">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FindWallet" id="9sM-U4-euX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="loG-Pa-thU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FCc-vb-UvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973" y="331"/>
+        </scene>
+        <!--Battery-->
+        <scene sceneID="Pxg-Gj-bYj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Battery" id="HN3-vT-RVe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cVm-Nq-OpR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EB2-Wp-jmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.5" y="381"/>
+        </scene>
+        <!--Unlock-->
+        <scene sceneID="6gs-FW-zDh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Unlock" id="CV2-CO-Fjr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Cpu-08-Y66"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Epp-ib-DYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="962" y="430"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="B0E-UT-gmn">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="e5d-4K-b05" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4sG-e3-d9r"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDY-Np-Q7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="966.5" y="480"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LogoWallet@1x" width="59" height="47"/>
+    </resources>
+</document>

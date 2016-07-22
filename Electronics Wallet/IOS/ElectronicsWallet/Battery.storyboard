@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cOU-p3-ybP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="mRM-oq-gWf">
+            <objects>
+                <viewController id="cOU-p3-ybP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h7W-Y3-ys6"/>
+                        <viewControllerLayoutGuide type="bottom" id="7hJ-Sx-WwY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HPo-eY-cl9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="gAm-oR-BDb">
+                                <rect key="frame" x="225" y="137" width="150" height="2"/>
+                                <color key="progressTintColor" red="0.53628000269999998" green="1" blue="0.61264944099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="trackTintColor" red="0.61597749437298432" green="0.74345603372411251" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4zS-nQ-fCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="477" y="457"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ElectronicsWallet/FindViewController.swift"
+            timestampString = "490873192.187046"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectronicsWallet.FindViewController.__deallocating_deinit"
+                  moduleName = "ElectronicsWallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MAC/IOS/ElectronicsWallet/ElectronicsWallet/ElectronicsWallet/FindViewController.swift"
+                  timestampString = "490873193.76139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectronicsWallet.FindViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ElectronicsWallet.FindViewController"
+                  moduleName = "ElectronicsWallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MAC/IOS/ElectronicsWallet/ElectronicsWallet/ElectronicsWallet/FindViewController.swift"
+                  timestampString = "490873193.762922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ElectronicsWallet.FindViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ElectronicsWallet.FindViewController&gt;"
+                  moduleName = "ElectronicsWallet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/MAC/IOS/ElectronicsWallet/ElectronicsWallet/ElectronicsWallet/FindViewController.swift"
+                  timestampString = "490873193.76323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
