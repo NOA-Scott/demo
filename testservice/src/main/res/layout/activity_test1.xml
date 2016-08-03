@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res/prow.snail.com.testservice.view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <prow.snail.com.testservice.view.MultiDirectionSlidingDrawer
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        my:content="@+id/content"
+        my:direction="topToBottom"
+        my:handle="@+id/handle" >
+
+        <include
+            layout="@layout/pen_content" />
+
+    </prow.snail.com.testservice.view.MultiDirectionSlidingDrawer>
+
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="ProgressDialog" />
+
+    <Button
+        android:id="@+id/AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="AlertDialog" />
+
+    <Button
+        android:id="@+id/AlertDialog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="AlertDialog1" />
+
+
+</LinearLayout>

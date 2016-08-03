@@ -13,7 +13,7 @@ import android.view.View;
 
 public class MainActivity extends BaseActivity {
 
-    public final static String TAG="MainActivity";
+    public final static String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,19 +38,25 @@ public class MainActivity extends BaseActivity {
                 Log.e(TAG, "  onClick   ");
                 break;
             }
+            case R.id.test1: {
+                Intent intent = new Intent(this, TestActivity.class);
+                startActivity(intent);
+                break;
+            }
         }
     }
+
     IMyAidlInterface myAidlInterface;
 
-    private ServiceConnection  conn=new ServiceConnection(){
+    private ServiceConnection conn = new ServiceConnection() {
 
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
-            myAidlInterface=IMyAidlInterface.Stub.asInterface(service);
+            myAidlInterface = IMyAidlInterface.Stub.asInterface(service);
 
 
             try {
-                Log.e(TAG,"number:  "+myAidlInterface.getFileCnt("aaa"));
+                Log.e(TAG, "number:  " + myAidlInterface.getFileCnt("aaa"));
             } catch (RemoteException e) {
                 e.printStackTrace();
             }
@@ -61,7 +67,6 @@ public class MainActivity extends BaseActivity {
 
         }
     };
-
 
 
 }
